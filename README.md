@@ -20,3 +20,4 @@ The code includes the image embedding preprocessing stages, and the training and
 |----------|:-------------:|:------:|:------:|
 | --- | --- | `Preprocessing.ipynb` | Used for the embedding of images and obtaining the three final datasets `train.csv`, `test.csv` and `val.csv`|
 
+The requirements for the execution of the code are present in `requirements.txt`
