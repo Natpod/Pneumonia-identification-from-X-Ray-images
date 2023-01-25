@@ -8,7 +8,7 @@ The code of this project was initially designed to run in Google Colab. However,
 
 ### Dataset
 
-The image dataset is composed of three folders `train`, `test` and `val`, each of them having two folders relating to images from normal patients (present in the nested `NORMAL` folders) and patients undergoing pneumonia (present in the nested `PNEUMONIA` folders)
+The code already automates the task of downloading the images into the code working directory, but this data can stil be found in folders for the repository.The image dataset is composed of three folders `train`, `test` and `val`, each of them having two folders relating to images from normal patients (present in the nested `NORMAL` folders) and patients undergoing pneumonia (present in the nested `PNEUMONIA` folders)
 
 | Version   | Date | License | Dataset Folders | Citation | Source |  Acquired from  |
 |----------|:-------------:|:------:|:------:|:------:|:------:|:------:|
