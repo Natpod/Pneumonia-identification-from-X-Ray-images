@@ -7,7 +7,7 @@ Final code project for the *Big Data Engineering* course in the **Masters in Com
 <p align="center">
 <img
   src="/picture.jpeg"
-  style="display: inline-block; margin: 0 auto; max-width: 100px" p>
+  width="300" height="300" style="display: inline-block; margin: 0 auto; max-width: 100px" p>
   
 The code of this project was initially designed to run in Google Colab. However, if a simple python interface is used, you can convert the Jupyter Notebook into a python file with the `nbconverter` python package. The dependencies needed to run the code in `Pneumonia_Identification_Big_Data_Final_Project.ipynb` are available in `requirements.txt`. 
 
