@@ -4,6 +4,11 @@
 
 Final code project for the *Big Data Engineering* course in the **Masters in Computational Biology (UPM)**, with the purpose of training several Spark-based image classification models for predicting Pneumonia from patients in a Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Image dataset. In addition, the following repository will check if the candidate model is scalable using a high level python interface based on Apache Zoo for BigDL model employment.
 
+<p align="center">
+<img
+  src="/picture.png"
+  style="display: inline-block; margin: 0 auto; max-width: 100px" p>
+  
 The code of this project was initially designed to run in Google Colab. However, if a simple python interface is used, you can convert the Jupyter Notebook into a python file with the `nbconverter` python package. The dependencies needed to run the code in `Pneumonia_Identification_Big_Data_Final_Project.ipynb` are available in `requirements.txt`. 
 
 ### Dataset
