@@ -11,7 +11,17 @@ Final code project for the *Big Data Engineering* course in the **Masters in Com
   
  <p align="center"> Example of pneumonia, retrieved from <i>Kermany et. al, 2018</i> </p>
   
-The code of this project was initially designed to run in Google Colab. However, if a simple python interface is used, you can convert the Jupyter Notebook into a python file with the `nbconverter` python package. The dependencies needed to run the code in `Pneumonia_Identification_Big_Data_Final_Project.ipynb` are available in `requirements.txt`. 
+The code of this project was initially designed to run in Google Colab. However, if a simple python interface is used, you can convert the Jupyter Notebook into a python file with the `nbconverter` python package. The dependencies needed to run the code in `Pneumonia_Identification_Big_Data_Final_Project.ipynb` are available in `requirements.txt`, and can be installed in the following way.
+
+```
+pip install -r requirements.txt
+```
+
+To import Orcas from Apache Zoo without a dependency error being raised, you should upgrade pyspark to the latest version
+```
+pip install --upgrade pyspark
+```
+
 
 ### Dataset
 
