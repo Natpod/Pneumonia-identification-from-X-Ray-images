@@ -2,7 +2,7 @@
 #### Authors : Ana Solbas Casajús and Natalia García Sánchez
 ---
 
-Final code project for the *Big Data Engineering* course in the **Masters in Computational Biology (UPM)**, with the purpose of training several Spark-based image classification models for predicting Pneumonia from patients in a Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Image dataset. In addition, the following repository will check if the candidate model is scalable using a high level python interface based on Apache Zoo for BigDL model employment.
+Final code project for the *Big Data Engineering* course in the **Masters in Computational Biology (UPM)**, with the purpose of training several Spark-based image classification models for predicting Pneumonia from patients in a Chest X-Ray Image dataset. In addition, the following repository will check if the candidate model is scalable using a high level python interface based on BigDL-DLlib model employment.
 
 <p align="center">
 <img
@@ -17,11 +17,15 @@ The code of this project was initially designed to run in Google Colab. However,
 pip install -r requirements.txt
 ```
 
-To import Orcas from Apache Zoo without a dependency error being raised, you should upgrade pyspark to the latest version
+To import the prerelease version of  BigDL-DLlib with spark3, you can execute the following line of code in colab,
 ```
-pip install --upgrade pyspark
+!pip -qq install bigdl-spark3
 ```
+Or use this line of code
+```
+!pip install https://sourceforge.net/projects/analytics-zoo/files/dllib-py-spark3/bigdl_dllib_spark3-0.14.0b20211107-py3-none-manylinux1_x86_64.whl
 
+```
 
 ### Dataset
 
@@ -37,6 +41,6 @@ The code includes the image embedding preprocessing stages, and the training and
 
 | Version   | Date | Script | Description | 
 |----------|:-------------:|:------:|:------:|
-| --- | --- | `Preprocessing.ipynb` | Used for the embedding of images and obtaining the three final datasets `train.csv`, `test.csv` and `val.csv`|
+| v.1 | 6/02/2023 | `Preprocessing.ipynb` | Pneumonia identification (All preprocessing, model training and evaluation stages)|
 
 The requirements for the execution of the code are present in `requirements.txt`
