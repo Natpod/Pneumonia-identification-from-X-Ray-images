@@ -42,6 +42,6 @@ The code includes the image embedding preprocessing stages, and the training and
 
 | Version   | Date | Script | Description | 
 |----------|:-------------:|:------:|:------:|
-| v.1 | 6/02/2023 | `Pneumonia_Identification_Big_Data_Final_Project.ipynb` | Pneumonia identification (All preprocessing, model training and evaluation stages)|
+| v.3 | 6/02/2023 | `Pneumonia_Identification_Big_Data_Final_Project.ipynb` | Pneumonia identification (All preprocessing, model training and evaluation stages)|
 
 The requirements for the execution of the code are present in `requirements.txt`
